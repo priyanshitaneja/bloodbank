@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:background="@drawable/blood"
+    tools:context=".learnmore">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:text="DONATE BLOOD, SAVE LIFE"
+
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+
+                />
+
+            <TextView
+                android:id="@+id/bloodtypes"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/title"
+                android:layout_centerHorizontal="true"
+                android:text="\n BLOOD TYPES- \n"
+                android:textColor="#FFFFFF"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/bloodtypes"
+                android:layout_centerHorizontal="true"
+                android:text="There are four main blood types: A, B, AB and O.
+The frequency of blood types is as follows-
+O+ 1 person in 3,
+A+ 1 person in 3,
+B+ 1 person in 12,
+AB+ 1 person in 29,
+O- 1 person in 15,
+A- 1 person in 16,
+B- 1 person in 67,
+AB- 1 person in 167.
+"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/bloodfacts"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/text"
+                android:layout_centerHorizontal="true"
+                android:text="BLOOD FACTS : \n"
+                android:textColor="#FFFFFF"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/bloodfacts"
+                android:layout_centerHorizontal="true"
+                android:text="•	Blood is the life-maintaining fluid that circulates through the body's heart, arteries, veins and capillaries.
+•	Blood carries to the body nourishment, electrolytes, hormones, vitamins, antibodies, heat, and oxygen.
+•	Blood carries away from the body waste matter and carbon dioxide.
+•	Blood fights against infection and helps heal wounds, keeping you healthy.
+•	Blood makes up about 7% of your body's weight.
+•	A newborn baby has about one cup of blood in his or her body.
+•	White blood cells are the body's primary defence against infection.
+•	Granulocytes, a type of white blood cell, roll along blood vessel walls to search and destroy bacteria.
+•	Red blood cells carry oxygen to the body's organs and tissues.
+•	There are about one billion red blood cells in two to three drops of blood.
+•	Red blood cells live about 120 days in the circulatory system.
+•	Blood platelets help clotting and give those with leukemia and other cancers a chance to live.
+"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/factsaboutbloodneed"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/text1"
+                android:layout_centerHorizontal="true"
+                android:text="FACTS ABOUT BLOOD NEED: \n"
+                android:textColor="#FFFFFFFF"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/factsaboutbloodneed"
+                android:layout_centerHorizontal="true"
+                android:text="•	Every year our nation requires about 4 Crore units of blood, out of which only a meager 40 Lakh units of blood are available.
+•	The gift of blood is the gift of life. There is no substitute for human blood.
+•	Every two seconds someone needs blood.
+•	More than 38,000 blood donations are needed every day.
+•	A total of 30 million blood components are transfused each year.
+•	The average red blood cell transfusion is approximately 3 pints.
+•	The blood type most often requested by hospitals is Type O.
+•	Sickle cell patients can require frequent blood transfusions throughout their lives.
+•	More than 1 million new people are diagnosed with cancer each year. Many of them will need blood, sometimes daily, during their chemotherapy treatment.
+•	A single car accident victim can require as many as 100 units of blood.
+"
+                android:textColor="#FFFFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/factsaboutbloodsupply"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/text2"
+                android:layout_centerHorizontal="true"
+                android:text="FACTS ABOUT BLOOD SUPPLY: \n"
+                android:textColor="#FFFFFFFF"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/factsaboutbloodsupply"
+                android:layout_centerHorizontal="true"
+                android:text="•	Blood cannot be manufactured – it can only come from generous donors.
+•	Type O- blood (red cells) can be transfused to patients of all blood types. It is always in great demand and often in short supply.
+•	Type AB+ plasma can be transfused to patients of all other blood types. AB plasma is also usually in short supply.
+"
+                android:textColor="#FFFFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/factsaboutblooddonationprocess"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/text3"
+                android:layout_centerHorizontal="true"
+                android:text="FACTS ABOUT BLOOD DONATION PROCESS: \n"
+                android:textColor="#FFFFFFFF"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/factsaboutblooddonationprocess"
+                android:layout_centerHorizontal="true"
+                android:text="•	Donating blood is a safe process. A sterile needle is used only once for each donor and then discarded.
+•	Blood donation is a simple four-step process: registration, medical history and mini-physical, donation and refreshments.
+•	Every blood donor is given a mini-physical, checking the donor's temperature, blood pressure, pulse and hemoglobin to ensure it is safe for the donor to give blood.
+•	The actual blood donation typically takes less than 10-12 minutes. The entire process, from the time you arrive to the time you leave, takes about an hour and 15 min.
+•	The average adult has about 10 units of blood in his body. Roughly 1 unit is given during a donation.
+•	A healthy donor may donate red blood cells every 56 days, or double red cells every 112 days.
+•	A healthy donor may donate platelets as few as 7 days apart, but a maximum of 24 times a year.
+•	All donated blood is tested for HIV, hepatitis B and C, syphilis and other infectious diseases before it can be transfused to patients.
+"
+                android:textColor="#FFFFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/bloodanditscomponents"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/text4"
+                android:layout_centerHorizontal="true"
+                android:text="FACTS ABOUT BLOOD AND ITS COMPONENTS: \n"
+                android:textColor="#FFFFFFFF"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/text5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/bloodanditscomponents"
+                android:layout_centerHorizontal="true"
+                android:text="•	Blood makes up about 7 percent of your body's weight.
+•	There are four types of transfusable products that can be derived from blood: red cells, platelets, plasma and cryoprecipitate. Typically, two or three of these are produced from a unit of donated whole blood – hence each donation can help save up to three lives.
+•	It consists of 55% plasma, 45% red blood cells and arouns 1% white blood cells and platelets.
+•	Donors can give either whole blood or specific blood components only. The process of donating specific blood components – red cells, plasma or platelets – is called apheresis.
+•	One transfusion dose of platelets can be obtained through one apheresis donation of platelets or by combining the platelets derived from five whole blood donations.
+•	Donated platelets must be used within five days of collection.
+•	Healthy bone marrow makes a constant supply of red cells, plasma and platelets. The body will replenish the elements given during a blood donation – some in a matter of hours and others in a matter of weeks.
+"
+                android:textColor="#FFFFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/factsaboutblooddonors"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/text5"
+                android:layout_centerHorizontal="true"
+                android:text="FACTS ABOUT BLOOD DONORS: \n"
+                android:textColor="#FFFFFFFF"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/text6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/factsaboutblooddonors"
+                android:layout_centerHorizontal="true"
+                android:text="•	The number one reason donors say they give blood is because 'they want to help others'.
+•	Two most common reasons cited by people who don't give blood are: Never thought about it and I don't like needles.
+•	One donation can help save the lives of upto three people.
+•	If you begin donating blood at the age of 18 and donate every 90 days until you reach 60, you donate 30 gallons of blood, potentially helping save more than 500 lives!
+•	Only 7 percent of people in India have O-negative blood type. O-negative blood type donors are universal donors as their blood can be given to people of all blood types.
+•	Type O-negative blood is needed in emergencies before the patient's blood type is known and with newborns who need blood.
+• 	Thirty-five percent of people have Type O (positive or negative) blood.
+•	0.4 percent of people have AB-blood type. AB-type blood donors are universal donors of plasma, which is often used in emergencies, for newborns and for patients requiring massive transfusions.
+"
+                android:textColor="#FFFFFFFF"
+                android:textSize="18sp" />
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

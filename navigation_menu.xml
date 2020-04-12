@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_donateblood"
+        android:icon="@drawable/donateblood"
+        android:title="Donate Blood" >
+    </item>
+
+    <item android:id="@+id/nav_needblood"
+        android:icon="@drawable/needblood"
+        android:title="Need Blood" >
+    </item>
+
+    <item android:id="@+id/nav_viewrequests"
+        android:icon="@drawable/viewrequests"
+        android:title="View Requests" >
+    </item>
+
+    <item android:id="@+id/nav_learnmore"
+        android:icon="@drawable/learnmore"
+        android:title="Learn More" >
+    </item>
+
+    <item android:id="@+id/nav_Registerothers"
+        android:icon="@drawable/others"
+        android:title="Register Others" >
+    </item>
+
+    <item android:id="@+id/nav_logout"
+        android:icon="@drawable/registerothers"
+        android:title="Logout" >
+    </item>
+
+</menu>
